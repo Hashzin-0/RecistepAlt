@@ -1,0 +1,698 @@
+{
+  "tables": {
+    "videos": {
+      "schema": {
+        "name": "videos",
+        "columns": [
+          {
+            "name": "id",
+            "type": "TEXT",
+            "primaryKey": true,
+            "notNull": true
+          },
+          {
+            "name": "platform",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "url",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "canonical_url",
+            "type": "TEXT"
+          },
+          {
+            "name": "title",
+            "type": "TEXT"
+          },
+          {
+            "name": "caption",
+            "type": "TEXT"
+          },
+          {
+            "name": "author_username",
+            "type": "TEXT"
+          },
+          {
+            "name": "author_name",
+            "type": "TEXT"
+          },
+          {
+            "name": "author_avatar",
+            "type": "TEXT"
+          },
+          {
+            "name": "author_verified",
+            "type": "INTEGER"
+          },
+          {
+            "name": "views",
+            "type": "INTEGER"
+          },
+          {
+            "name": "likes",
+            "type": "INTEGER"
+          },
+          {
+            "name": "comments",
+            "type": "INTEGER"
+          },
+          {
+            "name": "shares",
+            "type": "INTEGER"
+          },
+          {
+            "name": "saves",
+            "type": "INTEGER"
+          },
+          {
+            "name": "video_url",
+            "type": "TEXT"
+          },
+          {
+            "name": "thumbnail_url",
+            "type": "TEXT"
+          },
+          {
+            "name": "duration_seconds",
+            "type": "REAL"
+          },
+          {
+            "name": "width",
+            "type": "INTEGER"
+          },
+          {
+            "name": "height",
+            "type": "INTEGER"
+          },
+          {
+            "name": "aspect_ratio",
+            "type": "TEXT"
+          },
+          {
+            "name": "music_title",
+            "type": "TEXT"
+          },
+          {
+            "name": "music_author",
+            "type": "TEXT"
+          },
+          {
+            "name": "hashtags",
+            "type": "TEXT"
+          },
+          {
+            "name": "mentions",
+            "type": "TEXT"
+          },
+          {
+            "name": "upload_date",
+            "type": "TEXT"
+          },
+          {
+            "name": "scraped_at",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "extraction_strategy",
+            "type": "TEXT"
+          },
+          {
+            "name": "latency_ms",
+            "type": "INTEGER"
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "7620464589636914453",
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@receiitasdageh/video/7620464589636914453",
+          "canonical_url": "https://www.tiktok.com/@receiitasdageh/video/7620464589636914453",
+          "title": "Macarrão de Preguiçoso 🍝 #macarrão #macarraocremoso #receitafacilerapida #receitas #CapCut ",
+          "caption": "Macarrão de Preguiçoso 🍝 #macarrão #macarraocremoso #receitafacilerapida #receitas #CapCut ",
+          "author_username": "receiitasdageh",
+          "author_name": "Geh",
+          "author_avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/1a7c6b3a02d29bc01df25da05e9a6274~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=a0bb6860&x-expires=1792450800&x-signature=6cJNpf91jN%2Bm6RQpRFM0W02R3MM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+          "author_verified": 0,
+          "views": 5820690,
+          "likes": 226109,
+          "comments": 752,
+          "shares": 41227,
+          "saves": 84035,
+          "video_url": "https://v16-notes.tiktokcdn-us.com/5357b0f52ebf99c3fa0536db961acb47/6ad5a7ad/video/tos/alisg/tos-alisg-ve-0068c800-sg/oc0nIBQCABil8wLN4VMAfi30mAuylE1tIK4AOQ/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&&bt=1757&ft=4fLr5M9h8Zmo0WeH7a4jVq.PinWrKsd.&mime_type=video_mp4&rc=Nzg0ZzwzOjs1OTg7PGY2N0BpM2o2d245cmxvOjMzODczNEBhLi1iNjMwXjExMzZhXi0vYSNwbDVqMmRzMy1hLS1kMWBzcw%3D%3D&vvpl=1&l=202610182315281EE6D7A75A9A42DF47F7&btag=e00090000",
+          "thumbnail_url": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/oI9eGp8MwISWGmnR7qeeGB9VCJFABQCAXAAfQA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=f3f4aa13&x-expires=1792450800&x-signature=D0mWvPKHp41ksmsLh7Iln%2BlPW9E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+          "duration_seconds": 61,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "Antídoto - Ao Vivo",
+          "music_author": "Matheus & Kauan",
+          "hashtags": "[\"#macarr\",\"#macarraocremoso\",\"#receitafacilerapida\",\"#receitas\",\"#CapCut\"]",
+          "mentions": "[]",
+          "upload_date": "2026-03-23T14:54:42.000Z",
+          "scraped_at": "2026-10-18T23:15:28.255Z",
+          "extraction_strategy": "TikTok High-Speed Resilient API (TikWM Engine)",
+          "latency_ms": 1651
+        },
+        {
+          "id": "DItnAoyucct",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/DItnAoyucct/",
+          "canonical_url": "https://www.instagram.com/reel/DItnAoyucct/",
+          "title": "Instagram Reel - Automação & Dicas Rápidas 📱",
+          "caption": "Conteúdo de alta retenção no Instagram. Extração resiliente com cabeçalhos Sec-Ch-Ua e emulação de browser. #reels #instagram #socialmedia #tecnologia",
+          "author_username": "digital_creator_pro",
+          "author_name": "Digital Creator Pro",
+          "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "author_verified": 1,
+          "views": 298400,
+          "likes": 34100,
+          "comments": 980,
+          "shares": 6100,
+          "saves": 11200,
+          "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnail_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600",
+          "duration_seconds": 34,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "Original Audio - Digital Creator Pro",
+          "music_author": "Digital Creator Pro",
+          "hashtags": "[\"#reels\",\"#instagram\",\"#socialmedia\",\"#tecnologia\"]",
+          "mentions": "[]",
+          "upload_date": "2026-10-18T23:13:57.926Z",
+          "scraped_at": "2026-10-18T23:13:57.926Z",
+          "extraction_strategy": "Instagram Stealth Bypass Layer (Session Emulation)",
+          "latency_ms": 1346
+        },
+        {
+          "id": "7348446233481972998",
+          "platform": "tiktok",
+          "url": "https://vt.tiktok.com/ZSgjeFb1Q",
+          "canonical_url": "https://vt.tiktok.com/ZSgjeFb1Q",
+          "title": "A convite da @lecreusetbrasil eu trouxe essa receita deliciosa para o seu almoço de Páscoa: Lasanha à bolonhesa. Eu utilizei os novos produtos na cor Chambray, que é uma edição limitada. E você ainda pode garantir os seus produtos com 15% de desconto no site, utilizando o meu cupom VINI15 (válido até o dia 31/03). Corre lá para aproveitar!  Lasanha à bolonhesa 500g de carne moída 1/2 cebola 1 cenoura 1 talo de salsão 1 lata de tomate pelado 1 cs de extrato de tomate 100ml de vinho tinto 100ml de leite Salsinha 25g de manteiga 25g de farinha de trigo 500ml de leite noz moscada 500g de massa de lasanha Queijo parmesão . #publi #receitas #receitafacil #receitasimples #receita #receitacaseira #receitaspraticas #receitasquefuncionam #cozinhapratica #comida #comidadeverdade #comidacaseira #comidareal #comidaboa #comidagostosa #comidas",
+          "caption": "A convite da @lecreusetbrasil eu trouxe essa receita deliciosa para o seu almoço de Páscoa: Lasanha à bolonhesa. Eu utilizei os novos produtos na cor Chambray, que é uma edição limitada. E você ainda pode garantir os seus produtos com 15% de desconto no site, utilizando o meu cupom VINI15 (válido até o dia 31/03). Corre lá para aproveitar!  Lasanha à bolonhesa 500g de carne moída 1/2 cebola 1 cenoura 1 talo de salsão 1 lata de tomate pelado 1 cs de extrato de tomate 100ml de vinho tinto 100ml de leite Salsinha 25g de manteiga 25g de farinha de trigo 500ml de leite noz moscada 500g de massa de lasanha Queijo parmesão . #publi #receitas #receitafacil #receitasimples #receita #receitacaseira #receitaspraticas #receitasquefuncionam #cozinhapratica #comida #comidadeverdade #comidacaseira #comidareal #comidaboa #comidagostosa #comidas",
+          "author_username": "chefvinicordeiro",
+          "author_name": "Vini Cordeiro",
+          "author_avatar": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/8917f282e23ec8f70da2062f00f7fc5e~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=c2b4f21d&x-expires=1792450800&x-signature=x8YxRtBzMFvpvHP2HS%2Fcqmq%2F%2B5Y%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+          "author_verified": 0,
+          "views": 207884,
+          "likes": 19250,
+          "comments": 188,
+          "shares": 851,
+          "saves": 2851,
+          "video_url": "https://v16-notes.tiktokcdn-us.com/87b3da95fc874876a2d9bf3a58190f8a/6ad5a583/video/tos/alisg/tos-alisg-ve-0068c800-sg/ogryA79IiCOiUrjAtohIfO1xKsHnBgQ0BvpEFk/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&&bt=992&ft=asKJYqq2mToPD12dTyHI3wUQB3oLaeF~O5&mime_type=video_mp4&rc=NjNnZzwzNTg8PDg8NjszNkBpMzh3a245cjVocTMzNzgzM0BiY2I0NC0yNTAxYi8yLS5jYSM0NXBuMmRrbHFgLS1kLzZzcw%3D%3D&vvpl=1&l=202610182306037FC406287AE10FC87A8A&btag=e00090000",
+          "thumbnail_url": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-p-0068/oo7BzikBoPAB8sQivAyKgAAzES6rNfIjr2pD0E~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=8596&refresh_token=1590d275&x-expires=1792450800&x-signature=1g96AcffWA6Ret3U7i%2FDEXdEiWU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&s=AWEME_DETAIL&sc=cover&biz_tag=tt_video",
+          "duration_seconds": 72,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "original sound - chefvinicordeiro",
+          "music_author": "Vini Cordeiro",
+          "hashtags": "[\"#publi\",\"#receitas\",\"#receitafacil\",\"#receitasimples\",\"#receita\",\"#receitacaseira\",\"#receitaspraticas\",\"#receitasquefuncionam\",\"#cozinhapratica\",\"#comida\",\"#comidadeverdade\",\"#comidacaseira\",\"#comidareal\",\"#comidaboa\",\"#comidagostosa\",\"#comidas\"]",
+          "mentions": "[\"@lecreusetbrasil\"]",
+          "upload_date": "2024-03-20T14:25:00.000Z",
+          "scraped_at": "2026-10-18T23:06:03.222Z",
+          "extraction_strategy": "TikTok High-Speed Resilient API (TikWM Engine)",
+          "latency_ms": 1588
+        },
+        {
+          "id": "C218aZ_N_4e",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/C218aZ_N_4e/",
+          "canonical_url": "https://www.instagram.com/reel/C218aZ_N_4e/",
+          "title": "Instagram Reel - Automação & Dicas Rápidas 📱",
+          "caption": "Conteúdo de alta retenção no Instagram. Extração resiliente com cabeçalhos Sec-Ch-Ua e emulação de browser. #reels #instagram #socialmedia #tecnologia",
+          "author_username": "digital_creator_pro",
+          "author_name": "Digital Creator Pro",
+          "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "author_verified": 1,
+          "views": 298400,
+          "likes": 34100,
+          "comments": 980,
+          "shares": 6100,
+          "saves": 11200,
+          "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnail_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600",
+          "duration_seconds": 34,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "Original Audio - Digital Creator Pro",
+          "music_author": "Digital Creator Pro",
+          "hashtags": "[\"#reels\",\"#instagram\",\"#socialmedia\",\"#tecnologia\"]",
+          "mentions": "[]",
+          "upload_date": "2026-10-18T22:55:34.809Z",
+          "scraped_at": "2026-10-18T22:55:34.809Z",
+          "extraction_strategy": "Instagram Stealth Bypass Layer (Session Emulation)",
+          "latency_ms": 1379
+        },
+        {
+          "id": "vid_tt_01",
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@techpulse_br/video/7342918829104829",
+          "canonical_url": "https://www.tiktok.com/@techpulse_br/video/7342918829104829",
+          "title": "Como extrair dados de vídeos do TikTok sem tomar ban de IP ⚡️",
+          "caption": "Tutorial passo a passo ensinando rotação de User-Agent, cabeçalhos Sec-Ch-Ua e proxies residenciais! #tiktok #scraping #tecnologia #dicasdev #programador",
+          "author_username": "techpulse_br",
+          "author_name": "TechPulse Brasil",
+          "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+          "author_verified": 1,
+          "views": 1240500,
+          "likes": 182300,
+          "comments": 4890,
+          "shares": 41200,
+          "saves": 68400,
+          "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnail_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&auto=format&fit=crop&q=80",
+          "duration_seconds": 59.2,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "Original Sound - TechPulse Tech",
+          "music_author": "TechPulse Brasil",
+          "hashtags": "[\"#tiktok\",\"#scraping\",\"#tecnologia\",\"#dicasdev\",\"#programador\"]",
+          "mentions": "[]",
+          "upload_date": "2026-03-20T18:00:00Z",
+          "scraped_at": "2026-10-18T11:42:10Z",
+          "extraction_strategy": "TikTok Web ItemDetail + TikWM Resilient API",
+          "latency_ms": 295
+        },
+        {
+          "id": "vid_ig_02",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/reel/C45m_88L00p/",
+          "canonical_url": "https://www.instagram.com/reel/C45m_88L00p/",
+          "title": "Guia definitivo de Arquitetura de Software em 2026 🏛️",
+          "caption": "Microserviços vs Monólitos vs Serverless. Qual escolher para o seu próximo grande produto? #softwareengineering #arquitetura #backend #systemdesign",
+          "author_username": "sofia_codes",
+          "author_name": "Sofia Rocha",
+          "author_avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+          "author_verified": 0,
+          "views": 312000,
+          "likes": 27900,
+          "comments": 890,
+          "shares": 5400,
+          "saves": 9800,
+          "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "thumbnail_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop&q=80",
+          "duration_seconds": 35,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "Chill Lo-Fi Coding Session",
+          "music_author": "LoFi Beats Studio",
+          "hashtags": "[\"#softwareengineering\",\"#arquitetura\",\"#backend\",\"#systemdesign\"]",
+          "mentions": "[\"@devcommunity\"]",
+          "upload_date": "2026-04-01T12:00:00Z",
+          "scraped_at": "2026-10-18T12:10:05Z",
+          "extraction_strategy": "Instagram Embed JSON + OpenGraph Extractor",
+          "latency_ms": 412
+        },
+        {
+          "id": "vid_tt_02",
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@creative_growth/video/7349102839210012",
+          "canonical_url": "https://www.tiktok.com/@creative_growth/video/7349102839210012",
+          "title": "Como o algoritmo do TikTok analisa a retenção dos primeiros 3 segundos 📈",
+          "caption": "Análise de métricas de engajamento: completion rate, watch time e compartilhamentos. #marketingdigital #tiktokgrowth #metricas #growthhacking",
+          "author_username": "creative_growth",
+          "author_name": "Creative Growth Lab",
+          "author_avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+          "author_verified": 1,
+          "views": 890000,
+          "likes": 94000,
+          "comments": 2150,
+          "shares": 18700,
+          "saves": 34100,
+          "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+          "thumbnail_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80",
+          "duration_seconds": 42,
+          "width": 1080,
+          "height": 1920,
+          "aspect_ratio": "9:16",
+          "music_title": "Corporate Inspiring Ambience",
+          "music_author": "AudioLibrary",
+          "hashtags": "[\"#marketingdigital\",\"#tiktokgrowth\",\"#metricas\",\"#growthhacking\"]",
+          "mentions": "[]",
+          "upload_date": "2026-04-05T09:15:00Z",
+          "scraped_at": "2026-10-18T13:05:44Z",
+          "extraction_strategy": "TikTok oEmbed API + Anti-bot Fallback",
+          "latency_ms": 220
+        }
+      ]
+    },
+    "authors": {
+      "schema": {
+        "name": "authors",
+        "columns": [
+          {
+            "name": "username",
+            "type": "TEXT",
+            "primaryKey": true,
+            "notNull": true
+          },
+          {
+            "name": "platform",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "name",
+            "type": "TEXT"
+          },
+          {
+            "name": "avatar_url",
+            "type": "TEXT"
+          },
+          {
+            "name": "verified",
+            "type": "INTEGER"
+          },
+          {
+            "name": "total_scraped_videos",
+            "type": "INTEGER"
+          },
+          {
+            "name": "total_likes",
+            "type": "INTEGER"
+          },
+          {
+            "name": "total_views",
+            "type": "INTEGER"
+          },
+          {
+            "name": "last_scraped_at",
+            "type": "TEXT"
+          }
+        ]
+      },
+      "rows": [
+        {
+          "username": "dev_python_br",
+          "platform": "instagram",
+          "name": "Dev Python Brasil",
+          "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "verified": 1,
+          "total_scraped_videos": 1,
+          "total_likes": 38400,
+          "total_views": 452800,
+          "last_scraped_at": "2026-10-18T10:15:22Z"
+        },
+        {
+          "username": "techpulse_br",
+          "platform": "tiktok",
+          "name": "TechPulse Brasil",
+          "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+          "verified": 1,
+          "total_scraped_videos": 1,
+          "total_likes": 182300,
+          "total_views": 1240500,
+          "last_scraped_at": "2026-10-18T11:42:10Z"
+        },
+        {
+          "username": "digital_creator_pro",
+          "platform": "instagram",
+          "name": "Digital Creator Pro",
+          "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+          "verified": 1,
+          "total_scraped_videos": 4,
+          "total_likes": 136400,
+          "total_views": 1193600,
+          "last_scraped_at": "2026-10-18T23:13:57.926Z"
+        },
+        {
+          "username": "chefvinicordeiro",
+          "platform": "tiktok",
+          "name": "Vini Cordeiro",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/8917f282e23ec8f70da2062f00f7fc5e~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=c2b4f21d&x-expires=1792450800&x-signature=x8YxRtBzMFvpvHP2HS%2Fcqmq%2F%2B5Y%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+          "verified": 0,
+          "total_scraped_videos": 1,
+          "total_likes": 19250,
+          "total_views": 207884,
+          "last_scraped_at": "2026-10-18T23:06:03.222Z"
+        },
+        {
+          "username": "receiitasdageh",
+          "platform": "tiktok",
+          "name": "Geh",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/1a7c6b3a02d29bc01df25da05e9a6274~tplv-tiktokx-cropcenter-q:300:300:q70.jpeg?dr=8834&refresh_token=a0bb6860&x-expires=1792450800&x-signature=6cJNpf91jN%2Bm6RQpRFM0W02R3MM%3D&t=223449c4&ps=87d6e48a&shp=d05b14bd&shcp=1d1a97fc&idc=useast5&sc=avatar&s=AWEME_DETAIL",
+          "verified": 0,
+          "total_scraped_videos": 1,
+          "total_likes": 226109,
+          "total_views": 5820690,
+          "last_scraped_at": "2026-10-18T23:15:28.255Z"
+        }
+      ]
+    },
+    "scrape_logs": {
+      "schema": {
+        "name": "scrape_logs",
+        "columns": [
+          {
+            "name": "id",
+            "type": "TEXT",
+            "primaryKey": true,
+            "notNull": true
+          },
+          {
+            "name": "timestamp",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "platform",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "target_url",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "status",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "strategy",
+            "type": "TEXT"
+          },
+          {
+            "name": "latency_ms",
+            "type": "INTEGER"
+          },
+          {
+            "name": "extracted_title",
+            "type": "TEXT"
+          },
+          {
+            "name": "error_message",
+            "type": "TEXT"
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "log_1792365328256_tgyr",
+          "timestamp": "2026-10-18T23:15:28.256Z",
+          "platform": "tiktok",
+          "target_url": "https://www.tiktok.com/@receiitasdageh/video/7620464589636914453?is_from_webapp=1&sender_device=pc",
+          "status": "success",
+          "strategy": "TikTok High-Speed Resilient API (TikWM Engine)",
+          "latency_ms": 1651,
+          "extracted_title": "Macarrão de Preguiçoso 🍝 #macarrão #macarraocremoso #receitafacilerapida #receitas #CapCut ",
+          "error_message": null
+        },
+        {
+          "id": "log_1792365237926_es8e",
+          "timestamp": "2026-10-18T23:13:57.926Z",
+          "platform": "instagram",
+          "target_url": "https://www.instagram.com/reel/DItnAoyucct/?obrf=MTdkN29sMXMzOGVveg==",
+          "status": "success",
+          "strategy": "Instagram Stealth Bypass Layer (Session Emulation)",
+          "latency_ms": 1346,
+          "extracted_title": "Instagram Reel - Automação & Dicas Rápidas 📱",
+          "error_message": null
+        },
+        {
+          "id": "log_1792365216476_3bt6",
+          "timestamp": "2026-10-18T23:13:36.476Z",
+          "platform": "instagram",
+          "target_url": "https://www.instagram.com/reel/DItnAoyucct/?obrf=MTdkN29sMXMzOGVveg==",
+          "status": "success",
+          "strategy": "Instagram Stealth Bypass Layer (Session Emulation)",
+          "latency_ms": 1383,
+          "extracted_title": "Instagram Reel - Automação & Dicas Rápidas 📱",
+          "error_message": null
+        },
+        {
+          "id": "log_1792365160937_dk17",
+          "timestamp": "2026-10-18T23:12:40.937Z",
+          "platform": "instagram",
+          "target_url": "https://www.instagram.com/reel/DItnAoyucct/?obrf=MTdkN29sMXMzOGVveg==",
+          "status": "success",
+          "strategy": "Instagram Stealth Bypass Layer (Session Emulation)",
+          "latency_ms": 1401,
+          "extracted_title": "Instagram Reel - Automação & Dicas Rápidas 📱",
+          "error_message": null
+        },
+        {
+          "id": "log_1792364763222_pd4y",
+          "timestamp": "2026-10-18T23:06:03.223Z",
+          "platform": "tiktok",
+          "target_url": "https://vt.tiktok.com/ZSgjeFb1Q/",
+          "status": "success",
+          "strategy": "TikTok High-Speed Resilient API (TikWM Engine)",
+          "latency_ms": 1588,
+          "extracted_title": "A convite da @lecreusetbrasil eu trouxe essa receita deliciosa para o seu almoço de Páscoa: Lasanha à bolonhesa. Eu utilizei os novos produtos na cor Chambray, que é uma edição limitada. E você ainda pode garantir os seus produtos com 15% de desconto no site, utilizando o meu cupom VINI15 (válido até o dia 31/03). Corre lá para aproveitar!  Lasanha à bolonhesa 500g de carne moída 1/2 cebola 1 cenoura 1 talo de salsão 1 lata de tomate pelado 1 cs de extrato de tomate 100ml de vinho tinto 100ml de leite Salsinha 25g de manteiga 25g de farinha de trigo 500ml de leite noz moscada 500g de massa de lasanha Queijo parmesão . #publi #receitas #receitafacil #receitasimples #receita #receitacaseira #receitaspraticas #receitasquefuncionam #cozinhapratica #comida #comidadeverdade #comidacaseira #comidareal #comidaboa #comidagostosa #comidas",
+          "error_message": null
+        },
+        {
+          "id": "log_1792364134810_evrm",
+          "timestamp": "2026-10-18T22:55:34.810Z",
+          "platform": "instagram",
+          "target_url": "https://www.instagram.com/reel/C218aZ_N_4e/",
+          "status": "success",
+          "strategy": "Instagram Stealth Bypass Layer (Session Emulation)",
+          "latency_ms": 1379,
+          "extracted_title": "Instagram Reel - Automação & Dicas Rápidas 📱",
+          "error_message": null
+        },
+        {
+          "id": "log_seed_01",
+          "timestamp": "2026-10-18T10:15:22Z",
+          "platform": "instagram",
+          "target_url": "https://www.instagram.com/reel/C218aZ_N_4e/",
+          "status": "success",
+          "strategy": "Instagram GraphQL + oEmbed Hybrid Engine",
+          "latency_ms": 380,
+          "extracted_title": "Top 5 segredos de Python para automação e Web Scraping 🚀",
+          "error_message": null
+        },
+        {
+          "id": "log_seed_02",
+          "timestamp": "2026-10-18T11:42:10Z",
+          "platform": "tiktok",
+          "target_url": "https://www.tiktok.com/@techpulse_br/video/7342918829104829",
+          "status": "success",
+          "strategy": "TikTok Web ItemDetail + TikWM Resilient API",
+          "latency_ms": 295,
+          "extracted_title": "Como extrair dados de vídeos do TikTok sem tomar ban de IP ⚡️",
+          "error_message": null
+        }
+      ]
+    },
+    "recipes": {
+      "schema": {
+        "name": "recipes",
+        "columns": [
+          {
+            "name": "id",
+            "type": "TEXT",
+            "primaryKey": true,
+            "notNull": true
+          },
+          {
+            "name": "video_id",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "recipe_title",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "recipe_description",
+            "type": "TEXT"
+          },
+          {
+            "name": "category",
+            "type": "TEXT"
+          },
+          {
+            "name": "prep_time",
+            "type": "TEXT"
+          },
+          {
+            "name": "cook_time",
+            "type": "TEXT"
+          },
+          {
+            "name": "servings",
+            "type": "TEXT"
+          },
+          {
+            "name": "difficulty",
+            "type": "TEXT"
+          },
+          {
+            "name": "sections_json",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "utensils_json",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "steps_json",
+            "type": "TEXT",
+            "notNull": true
+          },
+          {
+            "name": "chef_tips",
+            "type": "TEXT"
+          },
+          {
+            "name": "analyzed_at",
+            "type": "TEXT",
+            "notNull": true
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "rec_pudim_1792365994538",
+          "video_id": "test_pudim_123",
+          "recipe_title": "Pudim de Leite Condensado Aveludado sem Furinhos",
+          "recipe_description": "Receita clássica com textura cremosa ultra lisinha, calda âmbar aromática e cozimento em banho-maria perfeito extraído do vídeo.",
+          "category": "Sobremesa",
+          "prep_time": "20 min",
+          "cook_time": "60 min",
+          "servings": "8 porções generosas",
+          "difficulty": "Fácil",
+          "sections_json": "[{\"sectionName\":\"Calda de Caramelo Dourada\",\"items\":[{\"name\":\"Açúcar refinado ou cristal\",\"quantity\":\"1 xícara (200g)\",\"notes\":\"Derreter até ponto de guaraná âmbar\",\"icon\":\"candy\"},{\"name\":\"Água morna\",\"quantity\":\"1/2 xícara (120ml)\",\"notes\":\"Adicionar pelas bordas com cautela\",\"icon\":\"droplet\"}]},{\"sectionName\":\"Massa do Pudim\",\"items\":[{\"name\":\"Leite condensado\",\"quantity\":\"1 lata (395g)\",\"notes\":\"Integral de alta cremosidade\",\"icon\":\"milk\"},{\"name\":\"Leite integral\",\"quantity\":\"395ml (mesma medida da lata)\",\"notes\":\"Temperatura ambiente\",\"icon\":\"milk\"},{\"name\":\"Ovos inteiros grandes\",\"quantity\":\"3 unidades\",\"notes\":\"Peneirados para retirar o cheiro característico\",\"icon\":\"egg\"},{\"name\":\"Extrato ou pasta de baunilha\",\"quantity\":\"1 colher (café)\",\"notes\":\"Realça o sabor lácteo\",\"icon\":\"sparkles\"}]}]",
+          "utensils_json": "[{\"name\":\"Forma com furo central (20cm de diâmetro)\",\"purpose\":\"Formato clássico com distribuição homogênea de calor\",\"icon\":\"pan\"},{\"name\":\"Liquidificador de alta potência\",\"purpose\":\"Bater os ovos e leites suavemente\",\"icon\":\"blender\"},{\"name\":\"Assadeira retangular para banho-maria\",\"purpose\":\"Cozinhar com umidade e sem ferver a massa\",\"icon\":\"pan\"},{\"name\":\"Peneira fina de inox\",\"purpose\":\"Filtrar película da gema e reter microbolhas\",\"icon\":\"sieve\"},{\"name\":\"Espátula de silicone (pão-duro)\",\"purpose\":\"Espalhar a calda de caramelo pela forma\",\"icon\":\"spatula\"},{\"name\":\"Papel alumínio\",\"purpose\":\"Vedar a forma durante o cozimento no forno\",\"icon\":\"sparkles\"}]",
+          "steps_json": "[{\"stepNumber\":1,\"title\":\"Caramelização da Forma\",\"instruction\":\"Na própria forma ou em uma panela, derreta o açúcar em fogo médio até dourar. Adicione a água morna e mexa até dissolver os grumos. Espalhe por todo o cone central e laterais.\",\"tip\":\"Deixe a calda esfriar na forma antes de despejar a massa para não misturar.\",\"timeEstimate\":\"8 min\"},{\"stepNumber\":2,\"title\":\"Preparo da Massa Suave\",\"instruction\":\"Bata no liquidificador o leite condensado, o leite integral, os ovos peneirados e a baunilha por exatamente 2 minutos.\",\"tip\":\"Não bata por tempo excessivo para não incorporar ar demais na massa.\",\"timeEstimate\":\"3 min\"},{\"stepNumber\":3,\"title\":\"Mise en Place: Descanso Anti-Bolhas\",\"instruction\":\"Deixe a mistura descansar na jarra do liquidificador por 5 minutos. Com uma colher, retire e descarte a espuma densa que subiu à superfície. Verta a massa na forma passando pela peneira.\",\"tip\":\"Este é o segredo absoluto para o pudim não ter nenhum furinho.\",\"timeEstimate\":\"6 min\"},{\"stepNumber\":4,\"title\":\"Cozimento em Banho-Maria no Forno\",\"instruction\":\"Cubra com papel alumínio. Coloque água quente na assadeira (com 1 colher de vinagre para não escurecer a forma) e asse a 180°C por 50 a 60 minutos.\",\"tip\":\"O pudim está pronto quando a superfície estiver firme ao toque mas levemente gelatinosa.\",\"timeEstimate\":\"55 min\"},{\"stepNumber\":5,\"title\":\"Resfriamento e Desenforme Impecável\",\"instruction\":\"Deixe esfriar completamente e leve à geladeira por no mínimo 4 horas. Na hora de desenformar, aqueça o fundo da forma na chama do fogão por 15 segundos e vire no prato.\",\"tip\":\"Nunca desenforme quente para a massa não desmoronar.\",\"timeEstimate\":\"4h geladeira\"}]",
+          "chef_tips": "[\"Furinhos no pudim são causados por fervura da água do banho-maria. Mantenha o forno a 160-180°C.\",\"Use uma forma com borda alta no prato para acomodar a generosa calda de caramelo.\"]",
+          "analyzed_at": "2026-10-18T23:26:34.538Z"
+        },
+        {
+          "id": "rec_pudim_01",
+          "video_id": "vid_ig_pudim",
+          "recipe_title": "Pudim Tradicional de Leite Condensado com Calda de Caramelo",
+          "recipe_description": "Receita infalível para um pudim cremoso e sem furinhos, com calda de caramelo âmbar brilhante.",
+          "category": "Sobremesa",
+          "prep_time": "20 min",
+          "cook_time": "60 min",
+          "servings": "8 porções",
+          "difficulty": "Fácil",
+          "sections_json": "[{\"sectionName\":\"Calda de Caramelo\",\"items\":[{\"name\":\"Açúcar refinado ou cristal\",\"quantity\":\"1 xícara (chá) / 200g\",\"notes\":\"Para derreter em fogo brando\",\"icon\":\"candy\"},{\"name\":\"Água morna\",\"quantity\":\"1/2 xícara / 120ml\",\"notes\":\"Adicionar com cautela para dissolver o caramelo\",\"icon\":\"droplet\"}]},{\"sectionName\":\"Massa do Pudim\",\"items\":[{\"name\":\"Leite condensado\",\"quantity\":\"1 lata (395g)\",\"notes\":\"Integral de boa qualidade\",\"icon\":\"milk\"},{\"name\":\"Leite integral\",\"quantity\":\"1 medida da lata (395ml)\",\"notes\":\"Temperatura ambiente\",\"icon\":\"milk\"},{\"name\":\"Ovos inteiros\",\"quantity\":\"3 unidades grandes\",\"notes\":\"Peneirados para tirar a película da gema\",\"icon\":\"egg\"},{\"name\":\"Extrato de baunilha\",\"quantity\":\"1 colher (café)\",\"notes\":\"Opcional para aromatizar\",\"icon\":\"sparkles\"}]}]",
+          "utensils_json": "[{\"name\":\"Forma de furo central (20cm)\",\"purpose\":\"Formato clássico com cozimento uniforme no centro\",\"icon\":\"pan\"},{\"name\":\"Liquidificador ou Fouet\",\"purpose\":\"Misturar os ingredientes líquidos da massa\",\"icon\":\"blender\"},{\"name\":\"Assadeira retangular para banho-maria\",\"purpose\":\"Fornecer vapor suave no forno para não ferver a massa\",\"icon\":\"pan\"},{\"name\":\"Peneira fina\",\"purpose\":\"Filtrar os ovos e retirar bolhas de ar superficiais\",\"icon\":\"sieve\"},{\"name\":\"Espátula de silicone (pão-duro)\",\"purpose\":\"Espalhar a calda de caramelo e raspar as laterais\",\"icon\":\"spatula\"},{\"name\":\"Papel alumínio\",\"purpose\":\"Vedar a forma nos primeiros 45 minutos de forno\",\"icon\":\"sparkles\"}]",
+          "steps_json": "[{\"stepNumber\":1,\"title\":\"Preparo da Calda Dourada\",\"instruction\":\"Em uma panela de fundo grosso, derreta o açúcar em fogo médio até atingir cor de caramelo âmbar. Junte a água morna aos poucos com cuidado e mexa até os torrões se dissolverem por completo.\",\"tip\":\"Não deixe escurecer demais para a calda não amargar.\",\"timeEstimate\":\"8 min\"},{\"stepNumber\":2,\"title\":\"Caramelização da Forma\",\"instruction\":\"Despeje a calda ainda quente na forma de furo central e gire com cuidado para untar todo o fundo e a haste central. Reserve para esfriar e endurecer.\",\"tip\":\"Deixar o caramelo esfriar na forma evita que se misture com a massa crua.\",\"timeEstimate\":\"4 min\"},{\"stepNumber\":3,\"title\":\"Preparo da Massa do Pudim\",\"instruction\":\"Bata o leite condensado, o leite integral, os ovos peneirados e o extrato de baunilha no liquidificador por cerca de 2 minutos até homogenizar.\",\"tip\":\"Peneirar os ovos tira o odor característico sem alterar a consistência.\",\"timeEstimate\":\"3 min\"},{\"stepNumber\":4,\"title\":\"Descanso Anti-Bolhas (Mise en Place)\",\"instruction\":\"Deixe o líquido descansar por 5 a 10 minutos na jarra. Com uma colher, retire a camada de espuma branca que subir à superfície. Passe pela peneira ao despejar na forma caramelizada.\",\"tip\":\"Esse é o verdadeiro segredo para o pudim ficar 100% lisinho sem furinhos!\",\"timeEstimate\":\"10 min\"},{\"stepNumber\":5,\"title\":\"Cozimento em Banho-Maria\",\"instruction\":\"Cubra a forma com papel alumínio (lado brilhante voltado para dentro). Coloque a forma dentro de uma assadeira com 2 dedos de água quente e umas gotinhas de vinagre. Leve ao forno pré-aquecido a 180°C por 50 a 60 minutos.\",\"tip\":\"O vinagre na assadeira impede que a forma de alumínio fique manchada de escuro.\",\"timeEstimate\":\"55 min\"},{\"stepNumber\":6,\"title\":\"Resfriamento e Desenforme Perfeito\",\"instruction\":\"Retire do forno, espere esfriar em temperatura ambiente e refrigere por no mínimo 4 horas (idealmente de um dia para o outro). Para desenformar, passe rapidamente o fundo da forma na chama do fogão por 15 segundos para soltar o caramelo e vire sobre um prato com borda.\",\"tip\":\"Nunca tente desenformar o pudim morno, pois a massa ainda estará mole e pode quebrar.\",\"timeEstimate\":\"4h geladeira\"}]",
+          "chef_tips": "[\"Pudim com furinhos é pudim cozido em alta temperatura (fervura); pudim liso assa em baixa temperatura e sem espuma.\",\"Utilize sempre leite na mesma medida do leite condensado para o equilíbrio ideal de doçura e consistência de corte.\"]",
+          "analyzed_at": "2026-10-18T14:15:00Z"
+        }
+      ]
+    }
+  }
+}

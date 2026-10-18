@@ -1,0 +1,6 @@
+{
+  "name": "SocialScraper Pro - Instagram & TikTok Extractor",
+  "description": "Scraper eficiente e anti-bloqueio para Instagram e TikTok com extração de metadados, armazenamento em banco SQLike e painel interativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
